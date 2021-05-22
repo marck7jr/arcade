@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marck7JR.Arcade.Infrastruct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marck7JR.Arcade.Infrastructure.Persistence", "src\Marck7JR.Arcade.Infrastructure.Persistence\Marck7JR.Arcade.Infrastructure.Persistence.csproj", "{A0AD4AED-7BCD-439B-ADDD-C9E71F736627}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{244B434D-10B0-4AAA-9879-BE15BC8301FB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{244B434D-10B0-4AAA-9879-BE15BC8301FB}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		Directory.Build.props = Directory.Build.props
@@ -28,6 +28,11 @@ EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "Marck7JR.Arcade.Desktop.UI (Package)", "src\Marck7JR.Arcade.Desktop.UI\Marck7JR.Arcade.Desktop.UI (Package)\Marck7JR.Arcade.Desktop.UI (Package).wapproj", "{EA2F8BA8-2A1D-4A55-BA3D-271413A9094D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marck7JR.Arcade.Desktop.UI", "src\Marck7JR.Arcade.Desktop.UI\Marck7JR.Arcade.Desktop.UI\Marck7JR.Arcade.Desktop.UI.csproj", "{B3231898-849D-4E30-95FE-3EDE866974C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E0BF5C8A-47F2-482E-953B-92F9E9228609}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,9 +150,12 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{00AA495F-4E04-4FC3-9A54-4225D6FF4BB8} = {272E5DC1-AD40-4BE3-AE67-40C517F24C11}
+		{272E5DC1-AD40-4BE3-AE67-40C517F24C11} = {E0BF5C8A-47F2-482E-953B-92F9E9228609}
 		{2C5B69D5-6123-4B1D-83EB-F8D0E67902A5} = {272E5DC1-AD40-4BE3-AE67-40C517F24C11}
+		{93BAD908-5449-467E-9895-EBE865E1B5B2} = {E0BF5C8A-47F2-482E-953B-92F9E9228609}
 		{A7477BB1-829E-423C-971F-C7115E207C48} = {93BAD908-5449-467E-9895-EBE865E1B5B2}
 		{A0AD4AED-7BCD-439B-ADDD-C9E71F736627} = {93BAD908-5449-467E-9895-EBE865E1B5B2}
+		{C508370C-000C-4A09-9F5B-A82A73E3138F} = {E0BF5C8A-47F2-482E-953B-92F9E9228609}
 		{EA2F8BA8-2A1D-4A55-BA3D-271413A9094D} = {C508370C-000C-4A09-9F5B-A82A73E3138F}
 		{B3231898-849D-4E30-95FE-3EDE866974C4} = {C508370C-000C-4A09-9F5B-A82A73E3138F}
 	EndGlobalSection
